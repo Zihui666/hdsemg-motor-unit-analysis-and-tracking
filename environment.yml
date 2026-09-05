@@ -1,0 +1,16 @@
+name: emg-motor-unit-qc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyter
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - h5py
+  - networkx
+  - openpyxl
+  - pip
