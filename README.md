@@ -1,6 +1,6 @@
-# EMG Motor Unit QC and Cross-Angle Tracking
+# HD-sEMG Motor Unit Analysis and Cross-Angle Tracking
 
-This repository contains a reproducible Jupyter workflow for quality-control analysis of manually edited motor units derived from high-density surface EMG (HD-sEMG), followed by MUAP-based motor-unit tracking across joint angles.
+This repository contains a reproducible Jupyter workflow for HD-sEMG motor-unit analysis, including before-and-after manual-editing comparison, MUAP extraction, and motor-unit tracking across joint angles.
 
 ## What the notebook does
 
@@ -63,7 +63,7 @@ The workflow also requires the research packages `motor_unit_toolbox` and `emg_t
 
 For each subject and recording location, the notebook creates:
 
-- Per-MU and per-file QC tables in CSV and Excel format.
+- Per-MU and per-file analysis tables in CSV and Excel format.
 - Metric-distribution figures.
 - Compressed MUAP arrays in NPZ format.
 - Cross-angle tracking chains and link-level NMSE tables.
