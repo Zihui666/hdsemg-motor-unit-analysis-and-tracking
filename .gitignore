@@ -1,0 +1,15 @@
+# Participant data and generated outputs
+data/
+results/
+*.mat
+*.npz
+*.xlsx
+
+# Jupyter and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Operating-system files
+.DS_Store
+Thumbs.db
